@@ -1,0 +1,485 @@
+# project-2-8
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+<link rel="stylesheet" type="text/css" href="css/polygonal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+ <!--triangles-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="2-9.css">
+ <link rel="stylesheet" type="text/css" href="svg.css">
+ <link rel="stylesheet" type="text/css" href="css/hover.css">
+ <script type="text/javascript" src="svgTriangles.jquery.js"></script>
+ <script type="text/javascript" src="svg2.js"></script>
+
+ <!-- Type Writter Effect-->
+ <link rel='stylesheet' href='AddTyping.css' />
+  <script src="http://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src='Obj.js'></script>
+  <script src='AddTyping.js'></script>
+  <link rel="stylesheet" type="text/css" href="typeWriting.css">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<!-- polugonal-->
+<!--Script for triangles-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!--script for type writer effcet-->
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+$("[data-addui=typing]").addTyping({
+
+  // animation speed
+  speed: 350,
+
+  // Each key stroke's speed will vary (+ or -) up to this amount (milliseconds) giving it a more human like look.
+  variance: 100,
+
+  // delete text after completed
+   backspace: true,
+
+  // delay
+  pause: 3000,
+
+  // shows the blinking cursor
+  caret: true
+
+});
+</script>
+
+<!-- style for type writer -->
+<style>
+  body { background-color:#EAEDED  ; color:#fff;}
+  .container { margin:150px auto; max-width:480px;}
+  span { font-family:'Pacifico'; font-size:30px}
+  </style>
+<body>
+
+  <!-- Main Code -->
+  <body class="w3-light-grey">
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%" id="img-sidebar">
+  <div id="svg" class="chrome v2">
+  <div class="bgimg"></div>
+  <svg width="100%" height="100%"></svg>
+  <svg width="100%" height="100%"></svg>
+  </nav>
+
+
+
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<div class="w3-display-container w3-hide-mediun w3-hide-small" id="navi" style="background-color: black;margin-left:550px" >
+
+<nav class=" w3-sidebar w3-bar-block w3-center w3-bar-block " id="navi-spc">
+<!--   <img src="images/madhuri1.jpg" style="width:200px" id="nav-img">-->
+  <a class="w3-bar-item w3-hide-small w3-hover-white" href="#" ><i class="fa fa-home w3-xlarge"></i><p> Home</p></a>   
+    <a class="w3-bar-item  w3-hide-small w3-hover-white" href="#" ><i class="fa fa-th  w3-xlarge"></i><p>Portfolio</p></a>     
+    <a class="w3-bar-item  w3-hide-small w3-hover-white" href="#" ><i class="fa fa-envelope  w3-xlarge"></i><p>contact</p></a></nav>     
+  </div>
+
+
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:750px" id="pg-cont">
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">PORTFOLIO</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black w3-hide-large " style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i>
+
+
+  </span>
+ 
+  
+  <!-- Header -->
+ <header class=" w3-center" style=" width:100% ;background: center ; height:100px;" id="home">
+  <div id="site-landing">  <script>
+    $('#site-landing').polygonizr();
+  </script>
+
+<h1 style="font-size: 50px">Madhuri Edke</h1>
+  <div data-addui='typing'>
+    <span>Web Desiner</span>
+    <span>Photographer </span>
+    <span>Artist</span>
+  </div>
+  
+    <img src="images/c.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="images/c.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <br></div>
+
+  </header>
+
+
+  <!--polygon effect -->
+   <div id="site-landing"></div>
+  <script>
+    $('#site-landing').polygonizr();
+  </script>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-24 w3-content" id="portfolio" >
+  
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px" id="img-grid">
+      
+                    <div class="box3">
+                        <img src="images/scr- (1).png" style="width:100%">
+                        <div class="box-content w3-center">
+                            <h3 class="title">Portfolio One</h3>
+                            <span class="post">High On Life </span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci pariatur qui.
+                            </p>
+                            <ul class="icon">
+                                <li><a href="project 9-8/project 9-8.html" class="fa fa-search"></a></li>
+                               
+                            </ul>
+                        </div>
+                  
+                </div>
+      
+   
+       <div class="box3">
+                        <img src="images/scr- (2).png" style="width:100%">
+                        <div class="box-content w3-center ">
+                          
+                            <h3 class="title" style="color:black">Portfolio Two</h3>
+                            <span class="post" style="color:black">High On Life </span>
+                            <p class="description" style="color:black">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci pariatur qui.
+                            </p>
+
+                            <ul class="icon">
+                                <li><a href="project 23-7/second_try_23_7.html" class="fa fa-search"></a></li>
+                           
+                            </ul>
+                        </div>
+                  
+                </div>
+        <div class="box3">
+                        <img src="images/scr- (3).png" style="width:100%">
+                        <div class="box-content w3-center">
+                            <h3 class="title">Portfolio One</h3>
+                            <span class="post">High On Life </span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad adipisci pariatur qui.
+                            </p>
+                            <ul class="icon">
+                                <li><a  href="project 21-7/first page.html" class="fa fa-search"></a></li>
+                                
+                            </ul>
+                        </div>
+                  
+                </div>
+        
+        
+    
+    <!-- End photo grid -->
+    </div>
+
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p id="about-text">I am a Web developer, Artist and Enginner ,I love Designes and belive in Powerfull and easy communication .I try my Best to make a website eye catchy and user friendly  
+    </p>
+
+    <hr class="w3-opacity">
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+     <a href="Madhuri CV -update 2(PDF).pdf" download> <i class="fa fa-download"></i> Download Resume
+    </button></a>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My Reputation</h3>
+    <img src="images/john.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Chandler Bing.</span> Web Designer.</p>
+    <p>just awesome. I am so happy to have met her!</p><br><br>
+   
+    <img src="images/Ramin_Djawadi.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>You saved us from a web disaster.</p><br><br>
+    
+    <img src="images/Kerith_Atkinson.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than You.</p><br>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('modal-wrapper').style.display='block'">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- popup-->
+
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('modal-wrapper').style.display='block'">Sign Up</button>
+
+          </li>
+        </ul>
+
+
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+      <div id="modal-wrapper" class="modal">
+  
+  <form class="modal-content animate" action="php/sign_up.php">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <img src="images/1.png" alt="Avatar" class="avatar1">
+      <h1 style="text-align:center">Modal Popup Box</h1>
+    
+      <input type="text" placeholder="User Name" name="username" required />
+
+      <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+      <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+      <div class="avatar"><label>Select your avatar: </label><input type="file" name="avatar" accept="image/*" required /></div>
+           <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+    </form>
+    
+            
+      <button type="submit">Login</button>
+      <input type="checkbox" style="margin:26px 30px;"> Remember me      
+      <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+    
+    </div>
+<!--new Accound-->
+
+
+  </form>
+
+<script>
+// If user clicks anywhere outside of the modal, Modal will close
+
+var modal = document.getElementById('modal-wrapper');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<!-- popup end-->
+
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Pune, India</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8317-269-337</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: madhuriedke@gmail.com</p>
+    </div>
+    
+     <!-- Google Map -->
+    <!--<div id="googleMap" class="w3-greyscale-max" style="width:100%;height:300px;margin:36px 0;"></div>-->
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.8312523196837!2d73.89643424966125!3d18.536526273464005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c106684b0931%3A0xea6f4435dd706e5f!2sLane+Number+6%2C+Ashok+Chakra+Society%2C+Meera+Nagar%2C+Koregaon+Park%2C+Pune%2C+Maharashtra+411001!5e0!3m2!1sen!2sin!4v1536153342651" width="750" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="php/action_page.php" target="_blank" method="post">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Copyright (c) by Madhuri Edke <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- Add Google Maps -->
+h="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+
+<!--script for triangles-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script type="text/javascript" src="svgTriangles.jquery.js"></script>
+<script type="text/javascript" src="svg2.js"></script>
+<script type="text/javascript" src="svgTriangles.jquery.js"></script>
+<script type="text/javascript" src="svg.js"></script>
+
+
+<!--open close-->
+<script>
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</html>
